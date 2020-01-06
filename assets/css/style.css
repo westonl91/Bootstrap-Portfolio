@@ -1,128 +1,130 @@
 #profile_img {
-    height: 150px;
-    float: left;
-    margin: 0px 20px 20px 20px;
-    /* margin: 5px; */
+  height: 150px;
+  float: left;
+  margin: 0px 20px 20px 20px;
+  /* margin: 5px; */
 }
 
 footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    background-color: gray;
-    width: 100%;
-    padding: 50px 0px 0px 0px;
-    border-top: lightblue solid 8px;
-    /* margin: 0px 0px 0px -8px; */
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  background-color: gray;
+  width: 100%;
+  padding: 50px 0px 0px 0px;
+  border-top: lightblue solid 8px;
+  /* margin: 0px 0px 0px -8px; */
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
 }
 
 .links {
-    float: right;
-    width: 20%;
-    margin: 12px 200px 12px 12px;
+  float: right;
+  width: 20%;
+  margin: 12px 200px 12px 12px;
 }
 
 #name {
-    background-color: lightblue;
-    padding: 10px;
-    /* width: 15%; */
-    text-align: center;
-    /* margin-left: 258px; */
-    margin-bottom: 0px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
-    position: relative;
-    top: 125px;
-    right: 15px;
+  background-color: lightblue;
+  padding: 10px;
+  /* width: 15%; */
+  text-align: center;
+  /* margin-left: 258px; */
+  margin-bottom: 0px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: white;
+  position: relative;
+  top: 125px;
+  right: 15px;
 }
 
 #header2 {
-    border-bottom: gray solid 3px;
-    margin: 20px;
-    line-height: 50px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: lightblue;
+  border-bottom: gray solid 3px;
+  margin: 20px;
+  line-height: 50px;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  color: lightblue;
 }
 
 a {
-    /* padding: 0px 8px; */
-    margin: 0px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  /* padding: 0px 8px; */
+  margin: 0px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #portfolio_link {
-    border-left: solid gray;
-    border-right: solid gray;
-    padding: 0px 12px;
+  border-left: solid gray;
+  border-right: solid gray;
+  padding: 0px 12px;
 }
 
 body {
-    background-image: url("./../images/circuit.png");
-    /* margin: 0px 10%; */
+  background-image: url("./../images/circuit.png");
+  /* margin: 0px 10%; */
 }
 
-.about_me, .contact, .portfolio {
-    background-color: white;
-    height: 500px;
-    overflow: auto;
-    /* width: 960px; */
-    margin: 125px 0px 90px 0px;
-    /* height: 960px; */
+.about_me,
+.portfolio {
+  background-color: white;
+  height: 500px;
+  overflow: auto;
+  /* width: 960px; */
+  margin: 125px 0px 0px 0px;
+  /* height: 960px; */
+}
 
+.portfolio {
+  margin-bottom: 90px;
 }
 
 header {
-    background-color: white;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    border-bottom: gray solid 5px;
-    margin-left: -8px;
+  background-color: white;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  border-bottom: gray solid 5px;
+  margin-left: -8px;
 }
 
 p {
-    margin: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-form {
-    margin: 20px 40px 20px 40px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    line-height: 30px;
+  margin: 20px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .port_img {
-    height: 180px;
-    float: left;
-    /* position: relative; */
+  height: 180px;
+  float: left;
+  /* position: relative; */
 }
 
 figcaption {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-align: center;
-    color: gray;
-    background-color: lightblue;
-    line-height: 30px;
-    position: relative;
-    bottom: 50px;
-    opacity: 0.8;
-    margin: 0px 20px;
-
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  background-color: lightblue;
+  line-height: 30px;
+  position: relative;
+  bottom: 50px;
+  opacity: 0.8;
+  margin: 0px 20px;
 }
 
 .port_img img {
-    height: 100%;
-    margin: 0px 20px;
+  height: 100%;
+  margin: 0px 20px;
 }
 
-input[type="text"], textarea {
-    width: 100%;
+input[type="text"],
+textarea {
+  width: 100%;
 }
 
 input[type="submit"] {
-    background-color: lightblue;
-    height: 30px;
+  background-color: lightblue;
+  height: 30px;
+}
+
+ul {
+  font-size: large;
 }
